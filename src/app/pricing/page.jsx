@@ -3,7 +3,9 @@
 const PricingPage = () => {
     return (
         <div>
-            Pricing
+            Pricing;
+            <br />
+            https://pixgen-ai.vercel.app/
         </div>
     );
 };
