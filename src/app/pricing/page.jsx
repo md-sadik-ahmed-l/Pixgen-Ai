@@ -6,6 +6,7 @@ const PricingPage = () => {
             Pricing;
             <br />
             https://pixgen-ai.vercel.app/
+            
         </div>
     );
 };
