@@ -24,10 +24,11 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body >
+      <body className="flex flex-col min-h-screen">
 
         <Navbar></Navbar>
-        <div className=" container mx-auto">{children}</div>
+
+        <div className=" container mx-auto flex-1">{children}</div>
         <Footer></Footer>
 
       </body>

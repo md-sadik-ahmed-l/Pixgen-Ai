@@ -1,7 +1,6 @@
 import PhotoCard from "@/components/PhotoCard";
 import Link from "next/link";
-import { BiArrowBack, BiArrowFromRight } from "react-icons/bi";
-import { FaArrowLeft } from "react-icons/fa";
+
 
 const HomePage = async () => {
   const res = await fetch("https://pixgen-eta.vercel.app/data.json");

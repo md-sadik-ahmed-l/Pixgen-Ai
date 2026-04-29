@@ -15,10 +15,10 @@ const Navbar = () => {
             height={40}
             className="object-cover h-auto w-auto"
           />
-          <h3 className="font-black text-4xl">Pixgen</h3>
+          <h3 className="font-black text-2xl sm:text-4xl">Pixgen</h3>
         </div>
 
-        <ul className="flex items-center gap-5 text-xl">
+        <ul className="hidden md:flex items-center gap-5 text-xl">
           <li>
             <Link href={"/"}>Home</Link>
           </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
         </ul>
 
         <div className="flex ">
-          <ul className="flex items-center  text-xl gap-4">
+          <ul className="flex items-center text-[16px]  sm:text-xl gap-4">
             <li>
               <Link href={"/signup"}>SignUp</Link>
             </li>
